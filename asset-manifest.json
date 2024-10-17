@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shahzaibkhanpathan/ImageFlipbook1.git/static/css/main.b273cd71.css",
-    "main.js": "/shahzaibkhanpathan/ImageFlipbook1.git/static/js/main.2fc7e04a.js",
-    "static/js/453.16e2c659.chunk.js": "/shahzaibkhanpathan/ImageFlipbook1.git/static/js/453.16e2c659.chunk.js",
-    "index.html": "/shahzaibkhanpathan/ImageFlipbook1.git/index.html",
-    "main.b273cd71.css.map": "/shahzaibkhanpathan/ImageFlipbook1.git/static/css/main.b273cd71.css.map",
-    "main.2fc7e04a.js.map": "/shahzaibkhanpathan/ImageFlipbook1.git/static/js/main.2fc7e04a.js.map",
-    "453.16e2c659.chunk.js.map": "/shahzaibkhanpathan/ImageFlipbook1.git/static/js/453.16e2c659.chunk.js.map"
+    "main.css": "/ImageFlipbook1/static/css/main.b273cd71.css",
+    "main.js": "/ImageFlipbook1/static/js/main.9dced2ac.js",
+    "static/js/453.16e2c659.chunk.js": "/ImageFlipbook1/static/js/453.16e2c659.chunk.js",
+    "index.html": "/ImageFlipbook1/index.html",
+    "main.b273cd71.css.map": "/ImageFlipbook1/static/css/main.b273cd71.css.map",
+    "main.9dced2ac.js.map": "/ImageFlipbook1/static/js/main.9dced2ac.js.map",
+    "453.16e2c659.chunk.js.map": "/ImageFlipbook1/static/js/453.16e2c659.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b273cd71.css",
-    "static/js/main.2fc7e04a.js"
+    "static/js/main.9dced2ac.js"
   ]
 }
