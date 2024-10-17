@@ -6,7 +6,12 @@ import './MyBook.css'; // Optional: for styling
 const Page = React.forwardRef((props, ref) => {
   return (
     <div className="demoPage" ref={ref}>
-      <img src={props.image} alt={`Page ${props.number}`} style={{ width: '100%', height: '100%' }} />
+      <img
+        src={props.image}
+        alt={`Page ${props.number}`}
+        style={{ width: '100%', height: '100%' }}
+        onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/img/default.jpg`; }} // Fallback image
+      />
     </div>
   );
 });
@@ -19,14 +24,14 @@ function MyBook() {
 
   // Paths to images in the public/img folder
   const images = [
-    '/img/1.jpg',
-    '/img/2.jpg',
-    '/img/3.jpg',
-    '/img/4.jpg',
-    '/img/5.jpg',
-    '/img/6.jpg',
-    '/img/7.jpg',
-    '/img/8.jpg'
+    `${process.env.PUBLIC_URL}/img/1.jpg`,
+    `${process.env.PUBLIC_URL}/img/2.jpg`,
+    `${process.env.PUBLIC_URL}/img/3.jpg`,
+    `${process.env.PUBLIC_URL}/img/4.jpg`,
+    `${process.env.PUBLIC_URL}/img/5.jpg`,
+    `${process.env.PUBLIC_URL}/img/6.jpg`,
+    `${process.env.PUBLIC_URL}/img/7.jpg`,
+    `${process.env.PUBLIC_URL}/img/8.jpg`
   ];
 
   useEffect(() => {
